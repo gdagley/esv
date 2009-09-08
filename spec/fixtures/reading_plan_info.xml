@@ -1,0 +1,19 @@
+HTTP/1.1 200 OK
+Date: Tue, 08 Sep 2009 14:38:02 GMT
+Server: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.5 with Suhosin-Patch
+Content-Location: readingPlanInfo.php
+Vary: negotiate
+TCN: choice
+X-Powered-By: PHP/5.2.4-2ubuntu5.5
+Content-Length: 301
+Content-Type: text/xml
+
+<crossway-bible class="reading-plan-info">
+<date>20090908</date>
+<plan>one-year-tract</plan>
+<id>0908</id>
+<url>http://www.gnpcb.org/esv/devotions/one.year.tract/?date=2009-09-08</url>
+<info>
+<family>2 Samuel 2; 1 Corinthians 13</family><private>Ezekiel 11; John 12</private>
+</info>
+</crossway-bible>
