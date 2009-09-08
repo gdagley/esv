@@ -1,6 +1,24 @@
 = esv
 
-Description goes here.
+Wrapper for English Standard Version (ESV) Bible Web Service. See ESV API docs http://www.esvapi.org/
+
+== SYNOPSIS:
+
+  b = ESV::Bible.new
+  
+  Default response for most actions is HTML
+  b.passageQuery('John 1:1') # => "<div class=\"esv\"><h2>John 1:1 <object type=\"application/x-shockwave-flash\"  data=\"http://www.esvapi.org/assets/play.swf?myUrl=hw%2F43001001\" width=\"40\" height=\"12\" class=\"audio\"><param name=\"movie\" value=\"http://www.esvapi.org/assets/play.swf?myUrl=hw%2F43001001\" /><param name=\"wmode\" value=\"transparent\" /></object></h2>\n<div class=\"esv-text\"><h3 id=\"p43001001.01-1\">The Word Became Flesh</h3>\n<p class=\"chapter-first\" id=\"p43001001.05-1\"><span class=\"chapter-num\" id=\"v43001001-1\">1:1&nbsp;</span>In the beginning was the Word, and the Word was with God, and the Word was God.  (<a href=\"http://www.esv.org\" class=\"copyright\">ESV</a>)</p>\n</div>\n</div>"
+  
+  XML responses are converted to Hashes
+  b.passageQuery('John 1:1', 'output-format' => 'crossway-xml-1.0') # =>  {"crossway_bible"=>{"class"=>"passage-query", "passage"=>{"reference"=>"John 1:1", "surrounding_chapters"=>{"previous"=>"Luke 24", "current"=>"John 1", "next"=>"John 2"}, "content"=>{"verse_unit"=>"<markerclass=\"begin-verse\" mid=\"v43001001\"></marker><begin_chapternum=\"1\"></begin_chapter><heading>The Word Became Flesh</heading><begin_paragraphclass=\"chapter-first\"></begin_paragraph><verse_numbegin_chapter=\"1\">1</verse_num>In the beginning was the Word, and the Word was with God, and the Word was God.<end_paragraph></end_paragraph>"}}, "copyright"=>"The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved. http://www.esv.org"}}
+
+== REQUIREMENTS:
+
+* httparty
+
+== INSTALL:
+
+* sudo gem install gdagley-esv
 
 == Note on Patches/Pull Requests
  
@@ -9,8 +27,7 @@ Description goes here.
 * Add tests for it. This is important so I don't break it in a
   future version unintentionally.
 * Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but
-   bump version in a commit by itself I can ignore when I pull)
+  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
 * Send me a pull request. Bonus points for topic branches.
 
 == Copyright
