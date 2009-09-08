@@ -15,15 +15,16 @@ module ESV
     # Retrieve passages from our Devotions section
     # 
     # See http://www.esvapi.org/api for more information and options
-    def readingPlanQuery(options={})
+    def query(options={})
       self.class.get '/readingPlanQuery', :query => @default_options.merge(options)
     end
     
     # Parse and display information about the reading plan for a given date
     # 
     # See http://www.esvapi.org/api for more information and options
-    def readingPlanInfo(options={})
-      self.class.get '/readingPlanInfo', :query => @default_options.merge(options)
+    def info(options={})
+      info = self.class.get '/readingPlanInfo', :query => @default_options.merge(options)
+      info["crossway_bible"]
     end
   end
 end

@@ -15,7 +15,7 @@ module ESV
     # Lookup a passage
     # 
     # See http://www.esvapi.org/api for more information and options
-    def passageQuery(passage, options={})
+    def passage_query(passage, options={})
       options[:passage] = passage
       self.class.get '/passageQuery', :query => @default_options.merge(options)
     end
@@ -33,7 +33,7 @@ module ESV
     # Parse and display information about your query, including identify whether it is a passage reference or a word search
     # 
     # See http://www.esvapi.org/api for more information and options
-    def queryInfo(q)
+    def query_info(q)
       options = {:q => q}
       self.class.get '/queryInfo', :query =>  @default_options.merge(options)
     end
@@ -48,7 +48,7 @@ module ESV
     # Display a verse that changes every day
     # 
     # See http://www.esvapi.org/api for more information and options
-    def dailyVerse(options={})
+    def daily_verse(options={})
       self.class.get '/dailyVerse', :query => @default_options.merge(options)
     end
   end
