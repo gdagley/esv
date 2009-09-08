@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{esv}
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Geoffrey Dagley"]
@@ -29,8 +29,11 @@ Gem::Specification.new do |s|
      "spec/esv/bible_spec.rb",
      "spec/esv/reading_plan_spec.rb",
      "spec/esv_spec.rb",
+     "spec/fixtures/passage_query.html",
+     "spec/fixtures/passage_query.xml",
      "spec/fixtures/reading_plan_info.xml",
      "spec/fixtures/reading_plan_query.html",
+     "spec/fixtures/reading_plan_query.xml",
      "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/gdagley/esv}
