@@ -23,8 +23,7 @@ module ESV
     # 
     # See http://www.esvapi.org/api for more information and options
     def info(options={})
-      info = self.class.get '/readingPlanInfo', :query => @default_options.merge(options)
-      info["crossway_bible"]
+      self.class.get '/readingPlanInfo', :query => @default_options.merge(options)
     end
   end
 end

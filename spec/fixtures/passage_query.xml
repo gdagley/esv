@@ -1,0 +1,96 @@
+HTTP/1.1 200 OK
+Date: Tue, 08 Sep 2009 15:02:08 GMT
+Server: Apache/2.2.8 (Ubuntu) PHP/5.2.4-2ubuntu5.5 with Suhosin-Patch
+Content-Location: passageQuery.php
+Vary: negotiate
+TCN: choice
+X-Powered-By: PHP/5.2.4-2ubuntu5.5
+Expires: Wed, 09 Sep 2009 15:02:08 +0000
+Transfer-Encoding: chunked
+Content-Type: text/xml
+
+<!DOCTYPE crossway-bible SYSTEM "http://www.gnpcb.org/esv/share/schemas/crossway.base.entities.dtd">
+<crossway-bible class="passage-query">
+<passage>
+  <reference>John 1</reference>
+  <surrounding-chapters>
+    <previous>Luke 24</previous>
+    <current class="full-chapter">John 1</current>
+    <next>John 2</next>
+  </surrounding-chapters>
+  <content>
+<verse-unit unit-id="43001001"><marker class="begin-verse" mid="v43001001"/>
+<begin-chapter num="1"/><heading>The Word Became Flesh</heading>
+<begin-paragraph class="chapter-first"/><verse-num begin-chapter="1">1</verse-num>In the beginning was the Word, and the Word was with God, and the Word was God.</verse-unit>
+<verse-unit unit-id="43001002"><marker class="begin-verse" mid="v43001002"/><verse-num>2</verse-num>He was in the beginning with God.</verse-unit>
+<verse-unit unit-id="43001003"><marker class="begin-verse" mid="v43001003"/><verse-num>3</verse-num>All things were made through him, and without him was not any thing made that was made.</verse-unit>
+<verse-unit unit-id="43001004"><marker class="begin-verse" mid="v43001004"/><verse-num>4</verse-num>In him was life,<footnote id="f1">Or <i>was not any thing made. That which has been made was life in him</i></footnote> and the life was the light of men.</verse-unit>
+<verse-unit unit-id="43001005"><marker class="begin-verse" mid="v43001005"/><verse-num>5</verse-num>The light shines in the darkness, and the darkness has not overcome it.<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001006"><marker class="begin-verse" mid="v43001006"/>
+<begin-paragraph/><verse-num>6</verse-num>There was a man sent from God, whose name was John.</verse-unit>
+<verse-unit unit-id="43001007"><marker class="begin-verse" mid="v43001007"/><verse-num>7</verse-num>He came as a witness, to bear witness about the light, that all might believe through him.</verse-unit>
+<verse-unit unit-id="43001008"><marker class="begin-verse" mid="v43001008"/><verse-num>8</verse-num>He was not the light, but came to bear witness about the light.<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001009"><marker class="begin-verse" mid="v43001009"/>
+<begin-paragraph/><verse-num>9</verse-num>The true light, which enlightens everyone, was coming into the world.</verse-unit>
+<verse-unit unit-id="43001010"><marker class="begin-verse" mid="v43001010"/><verse-num>10</verse-num>He was in the world, and the world was made through him, yet the world did not know him.</verse-unit>
+<verse-unit unit-id="43001011"><marker class="begin-verse" mid="v43001011"/><verse-num>11</verse-num>He came to his own,<footnote id="f2">Greek <i>to his own things</i>; that is, to his own domain, or to his own people</footnote> and his own people<footnote id="f3"><i>People</i> is implied in Greek</footnote> did not receive him.</verse-unit>
+<verse-unit unit-id="43001012"><marker class="begin-verse" mid="v43001012"/><verse-num>12</verse-num>But to all who did receive him, who believed in his name, he gave the right to become children of God,</verse-unit>
+<verse-unit unit-id="43001013"><marker class="begin-verse" mid="v43001013"/><verse-num>13</verse-num>who were born, not of blood nor of the will of the flesh nor of the will of man, but of God.<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001014"><marker class="begin-verse" mid="v43001014"/>
+<begin-paragraph/><verse-num>14</verse-num>And the Word became flesh and dwelt among us, and we have seen his glory, glory as of the only Son from the Father, full of grace and truth.</verse-unit>
+<verse-unit unit-id="43001015"><marker class="begin-verse" mid="v43001015"/><verse-num>15</verse-num>(John bore witness about him, and cried out, &ldblquot;This was he of whom I said, &lquot;He who comes after me ranks before me, because he was before me.&rquot;&rdblquot;)</verse-unit>
+<verse-unit unit-id="43001016"><marker class="begin-verse" mid="v43001016"/><verse-num>16</verse-num>And from his fullness we have all received, grace upon grace.</verse-unit>
+<verse-unit unit-id="43001017"><marker class="begin-verse" mid="v43001017"/><verse-num>17</verse-num>For the law was given through Moses; grace and truth came through Jesus Christ.</verse-unit>
+<verse-unit unit-id="43001018"><marker class="begin-verse" mid="v43001018"/><verse-num>18</verse-num>No one has ever seen God; the only God,<footnote id="f4">Or <i>the only One, who is God</i>; some manuscripts <i>the only Son</i></footnote> who is at the Father&apos;s side,<footnote id="f5">Greek <i>in the bosom of the Father</i></footnote> he has made him known.<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001019"><marker class="begin-verse" mid="v43001019"/><heading>The Testimony of John the Baptist</heading>
+<begin-paragraph/><verse-num>19</verse-num>And this is the testimony of John, when the Jews sent priests and Levites from Jerusalem to ask him, &ldblquot;Who are you?&rdblquot;</verse-unit>
+<verse-unit unit-id="43001020"><marker class="begin-verse" mid="v43001020"/><verse-num>20</verse-num>He confessed, and did not deny, but confessed, &ldblquot;I am not the Christ.&rdblquot;</verse-unit>
+<verse-unit unit-id="43001021"><marker class="begin-verse" mid="v43001021"/><verse-num>21</verse-num>And they asked him, &ldblquot;What then? Are you Elijah?&rdblquot; He said, &ldblquot;I am not.&rdblquot; &ldblquot;Are you the Prophet?&rdblquot; And he answered, &ldblquot;No.&rdblquot;</verse-unit>
+<verse-unit unit-id="43001022"><marker class="begin-verse" mid="v43001022"/><verse-num>22</verse-num>So they said to him, &ldblquot;Who are you? We need to give an answer to those who sent us. What do you say about yourself?&rdblquot;</verse-unit>
+<verse-unit unit-id="43001023"><marker class="begin-verse" mid="v43001023"/><verse-num>23</verse-num>He said, &ldblquot;I am the voice of one crying out in the wilderness, &lquot;Make straight<footnote id="f6">Or <i>crying out, &lquot;In the wilderness make straight</i></footnote> the way of the Lord,&rquot; as the prophet Isaiah said.&rdblquot;<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001024"><marker class="begin-verse" mid="v43001024"/>
+<begin-paragraph/><verse-num>24</verse-num>(Now they had been sent from the Pharisees.)</verse-unit>
+<verse-unit unit-id="43001025"><marker class="begin-verse" mid="v43001025"/><verse-num>25</verse-num>They asked him, &ldblquot;Then why are you baptizing, if you are neither the Christ, nor Elijah, nor the Prophet?&rdblquot;</verse-unit>
+<verse-unit unit-id="43001026"><marker class="begin-verse" mid="v43001026"/><verse-num>26</verse-num>John answered them, &ldblquot;I baptize with water, but among you stands one you do not know,</verse-unit>
+<verse-unit unit-id="43001027"><marker class="begin-verse" mid="v43001027"/><verse-num>27</verse-num>even he who comes after me, the strap of whose sandal I am not worthy to untie.&rdblquot;</verse-unit>
+<verse-unit unit-id="43001028"><marker class="begin-verse" mid="v43001028"/><verse-num>28</verse-num>These things took place in Bethany across the Jordan, where John was baptizing.<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001029"><marker class="begin-verse" mid="v43001029"/><heading>Behold, the Lamb of God</heading>
+<begin-paragraph/><verse-num>29</verse-num>The next day he saw Jesus coming toward him, and said, &ldblquot;Behold, the Lamb of God, who takes away the sin of the world!</verse-unit>
+<verse-unit unit-id="43001030"><marker class="begin-verse" mid="v43001030"/><verse-num>30</verse-num>This is he of whom I said, &lquot;After me comes a man who ranks before me, because he was before me.&rquot;</verse-unit>
+<verse-unit unit-id="43001031"><marker class="begin-verse" mid="v43001031"/><verse-num>31</verse-num>I myself did not know him, but for this purpose I came baptizing with water, that he might be revealed to Israel.&rdblquot;</verse-unit>
+<verse-unit unit-id="43001032"><marker class="begin-verse" mid="v43001032"/><verse-num>32</verse-num>And John bore witness: &ldblquot;I saw the Spirit descend from heaven like a dove, and it remained on him.</verse-unit>
+<verse-unit unit-id="43001033"><marker class="begin-verse" mid="v43001033"/><verse-num>33</verse-num>I myself did not know him, but he who sent me to baptize with water said to me, &lquot;He on whom you see the Spirit descend and remain, this is he who baptizes with the Holy Spirit.&rquot;</verse-unit>
+<verse-unit unit-id="43001034"><marker class="begin-verse" mid="v43001034"/><verse-num>34</verse-num>And I have seen and have borne witness that this is the Son of God.&rdblquot;<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001035"><marker class="begin-verse" mid="v43001035"/><heading>Jesus Calls the First Disciples</heading>
+<begin-paragraph/><verse-num>35</verse-num>The next day again John was standing with two of his disciples,</verse-unit>
+<verse-unit unit-id="43001036"><marker class="begin-verse" mid="v43001036"/><verse-num>36</verse-num>and he looked at Jesus as he walked by and said, &ldblquot;Behold, the Lamb of God!&rdblquot;</verse-unit>
+<verse-unit unit-id="43001037"><marker class="begin-verse" mid="v43001037"/><verse-num>37</verse-num>The two disciples heard him say this, and they followed Jesus.</verse-unit>
+<verse-unit unit-id="43001038"><marker class="begin-verse" mid="v43001038"/><verse-num>38</verse-num>Jesus turned and saw them following and said to them, <woc>&ldblquot;What are you seeking?&rdblquot;</woc> And they said to him, &ldblquot;Rabbi&rdblquot; (which means Teacher), &ldblquot;where are you staying?&rdblquot;</verse-unit>
+<verse-unit unit-id="43001039"><marker class="begin-verse" mid="v43001039"/><verse-num>39</verse-num>He said to them, <woc>&ldblquot;Come and you will see.&rdblquot;</woc> So they came and saw where he was staying, and they stayed with him that day, for it was about the tenth hour.<footnote id="f7">That is, about <span class="us-time">4 p.m.</span></footnote></verse-unit>
+<verse-unit unit-id="43001040"><marker class="begin-verse" mid="v43001040"/><verse-num>40</verse-num>One of the two who heard John speak and followed Jesus<footnote id="f8">Greek <i>him</i></footnote> was Andrew, Simon Peter&apos;s brother.</verse-unit>
+<verse-unit unit-id="43001041"><marker class="begin-verse" mid="v43001041"/><verse-num>41</verse-num>He first found his own brother Simon and said to him, &ldblquot;We have found the Messiah&rdblquot; (which means Christ).</verse-unit>
+<verse-unit unit-id="43001042"><marker class="begin-verse" mid="v43001042"/><verse-num>42</verse-num>He brought him to Jesus. Jesus looked at him and said, <woc>&ldblquot;So you are Simon the son of John? You shall be called Cephas&rdblquot;</woc> (which means Peter<footnote id="f9"><i>Cephas</i> and <i>Peter</i> are from the word for <i>rock</i> in Aramaic and Greek, respectively</footnote>).<end-paragraph/>
+</verse-unit>
+<verse-unit unit-id="43001043"><marker class="begin-verse" mid="v43001043"/><heading>Jesus Calls Philip and Nathanael</heading>
+<begin-paragraph/><verse-num>43</verse-num>The next day Jesus decided to go to Galilee. He found Philip and said to him, <woc>&ldblquot;Follow me.&rdblquot;</woc></verse-unit>
+<verse-unit unit-id="43001044"><marker class="begin-verse" mid="v43001044"/><verse-num>44</verse-num>Now Philip was from Bethsaida, the city of Andrew and Peter.</verse-unit>
+<verse-unit unit-id="43001045"><marker class="begin-verse" mid="v43001045"/><verse-num>45</verse-num>Philip found Nathanael and said to him, &ldblquot;We have found him of whom Moses in the Law and also the prophets wrote, Jesus of Nazareth, the son of Joseph.&rdblquot;</verse-unit>
+<verse-unit unit-id="43001046"><marker class="begin-verse" mid="v43001046"/><verse-num>46</verse-num>Nathanael said to him, &ldblquot;Can anything good come out of Nazareth?&rdblquot; Philip said to him, &ldblquot;Come and see.&rdblquot;</verse-unit>
+<verse-unit unit-id="43001047"><marker class="begin-verse" mid="v43001047"/><verse-num>47</verse-num>Jesus saw Nathanael coming toward him and said of him, <woc>&ldblquot;Behold, an Israelite indeed, in whom there is no deceit!&rdblquot;</woc></verse-unit>
+<verse-unit unit-id="43001048"><marker class="begin-verse" mid="v43001048"/><verse-num>48</verse-num>Nathanael said to him, &ldblquot;How do you know me?&rdblquot; Jesus answered him, <woc>&ldblquot;Before Philip called you, when you were under the fig tree, I saw you.&rdblquot;</woc></verse-unit>
+<verse-unit unit-id="43001049"><marker class="begin-verse" mid="v43001049"/><verse-num>49</verse-num>Nathanael answered him, &ldblquot;Rabbi, you are the Son of God! You are the King of Israel!&rdblquot;</verse-unit>
+<verse-unit unit-id="43001050"><marker class="begin-verse" mid="v43001050"/><verse-num>50</verse-num>Jesus answered him, <woc>&ldblquot;Because I said to you, &lquot;I saw you under the fig tree,&rquot; do you believe? You will see greater things than these.&rdblquot;</woc></verse-unit>
+<verse-unit unit-id="43001051"><marker class="begin-verse" mid="v43001051"/><verse-num>51</verse-num>And he said to him, <woc>&ldblquot;Truly, truly, I say to you,<footnote id="f10">The Greek for <i>you</i> is plural; twice in this verse</footnote> you will see heaven opened, and the angels of God ascending and descending on the Son of Man.&rdblquot;</woc><end-paragraph/>
+<end-chapter/>
+</verse-unit>
+  </content>
+</passage>
+<copyright>The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved. http://www.esv.org</copyright>
+</crossway-bible>
