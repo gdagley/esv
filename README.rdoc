@@ -4,6 +4,9 @@ Wrapper for English Standard Version (ESV) Bible Web Service. See ESV API docs h
 
 This is a work in progress.  Things are still in flux.
 
+Source: http://github.com/gdagley/esv
+Build status: http://runcoderun.com/gdagley/esv
+
 == SYNOPSIS:
 
   b = ESV::Bible.new
