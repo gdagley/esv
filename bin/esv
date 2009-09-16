@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+$:.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+require 'esv'
+
+if ARGV.empty?
+  puts "Usage  : esv PASSAGE\nexample: esv John 1:1"
+else
+  puts ESV::Bible.new('output-format' => 'plain-text').passage_query(ARGV.join(' '))
+end
