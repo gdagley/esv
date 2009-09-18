@@ -9,6 +9,8 @@ Build status: http://runcoderun.com/gdagley/esv
 
 == SYNOPSIS:
 
+Application use:
+
   b = ESV::Bible.new
   
   Default response for most actions is HTML
@@ -17,11 +19,32 @@ Build status: http://runcoderun.com/gdagley/esv
   XML responses are converted to Hashes
   b.passage_query('John 1:1', 'output-format' => 'crossway-xml-1.0') # =>  {"crossway_bible"=>{"class"=>"passage-query", "passage"=>{"reference"=>"John 1:1", "surrounding_chapters"=>{"previous"=>"Luke 24", "current"=>"John 1", "next"=>"John 2"}, "content"=>{"verse_unit"=>"<markerclass=\"begin-verse\" mid=\"v43001001\"></marker><begin_chapternum=\"1\"></begin_chapter><heading>The Word Became Flesh</heading><begin_paragraphclass=\"chapter-first\"></begin_paragraph><verse_numbegin_chapter=\"1\">1</verse_num>In the beginning was the Word, and the Word was with God, and the Word was God.<end_paragraph></end_paragraph>"}}, "copyright"=>"The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a division of Good News Publishers. Used by permission. All rights reserved. http://www.esv.org"}}
 
+Command line use:
+
+'esv' - for looking up verses and passages
+  
+  > esv John 1:1
+  =======================================================
+  John 1:1
+  _______________________________________________________
+  The Word Became Flesh
+
+     [1:1]In the beginning was the Word, and the Word was with God, and the 
+  Word was God. (ESV)
+    
+'esv_daily_verse' - for retrieving the ESV Daily Verse
+  
+  > esv_daily_verse
+  =======================================================
+  Romans 8:38-39
+     [38]For I am sure that neither death nor life, nor angels nor rulers, 
+  nor things present nor things to come, nor powers, [39]nor height nor 
+  depth, nor anything else in all creation, will be able to separate us 
+  from the love of God in Christ Jesus our Lord. (ESV)
+  
 == TODO
 
 * Add command line binaries for:
-  * 'esv' - for looking up verses and passages
-  * 'esv_daily_verse' - for retrieving the ESV Daily Verse
   * 'esv_daily_reading' - for retrieving the ESV Daily Reading Plan
 * Finish specs
 * Make more Ruby-like
@@ -46,4 +69,6 @@ Build status: http://runcoderun.com/gdagley/esv
 
 == Copyright
 
-Copyright (c) 2009 Geoffrey Dagley. See LICENSE for details.
+Copyright (c) 2009 Geoffrey Dagley. See LICENSE for details.  
+
+The Holy Bible, English Standard Version copyright (c)2001 by Crossway Bibles, a publishing ministry of Good News Publishers. Used by permission. All rights reserved.
